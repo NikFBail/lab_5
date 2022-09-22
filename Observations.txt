@@ -1,0 +1,4 @@
+Example where our program finds the optimal solution: 
+{1=[d, a, c, b, e], 2=[c, a, e, b, d], 3=[a, e, d, b, c], 4=[e, a, d, c, b], 5=[b, d, a, c, e]}
+
+Example where our program doesn't find the optimal solution
