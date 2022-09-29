@@ -1,4 +1,9 @@
 Example where our program finds the optimal solution: 
-{1=[d, a, c, b, e], 2=[c, a, e, b, d], 3=[a, e, d, b, c], 4=[e, a, d, c, b], 5=[b, d, a, c, e]}
 
 Example where our program doesn't find the optimal solution
+
+
+2. Our program takes input from the user as a single integer n, which is
+the number of companies, and also the number of programmers as well. Our
+code then fills an array for companies with distinct integer values rom
+1-n, and then does the same for an array of programmers as well.
