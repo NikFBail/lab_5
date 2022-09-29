@@ -41,7 +41,7 @@ public class lab5 {
         return pmap;
     }
 
-    /* Creates the preference for a single companies
+    /* Creates the preference for a single company
      */
     public static ArrayList<Integer> ComPrefArray(int n) { // Boolean: true, company pref, false, programmer pref
         ArrayList<Integer> pArray = new ArrayList<Integer>(n);
