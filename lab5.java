@@ -19,9 +19,8 @@ public class lab5 {
 
     }
 
-/* 
-    
-*/
+    /* Creates the preferences for a single programmer
+     */
     public static ArrayList<Character> ProgPrefArray(int n) { // Boolean: true, company pref, false, programmer pref
         ArrayList<Character> pArray = new ArrayList<Character>(n);
 
@@ -32,6 +31,8 @@ public class lab5 {
         return pArray;
     }
 
+    /* Creates lists of each programmers preferences
+     */
     public static HashMap<Integer, ArrayList<Character>> makeProgMap(int n) {
         HashMap<Integer, ArrayList<Character>> pmap = new HashMap<Integer, ArrayList<Character>>();
         for (Integer i = 1; i <= n; i++) {
@@ -40,6 +41,8 @@ public class lab5 {
         return pmap;
     }
 
+    /* Creates the preference for a single companies
+     */
     public static ArrayList<Integer> ComPrefArray(int n) { // Boolean: true, company pref, false, programmer pref
         ArrayList<Integer> pArray = new ArrayList<Integer>(n);
 
@@ -50,6 +53,8 @@ public class lab5 {
         return pArray;
     }
 
+    /* Creates lists of each companies preferences
+     */
     public static HashMap<Character, ArrayList<Integer>> makeComMap(int n) {
         HashMap<Character, ArrayList<Integer>> pmap = new HashMap<Character, ArrayList<Integer>>();
         for (Integer i = 0; i < n; i++) {
